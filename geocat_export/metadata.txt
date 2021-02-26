@@ -1,0 +1,18 @@
+[general]
+name=geocat.ch Export
+qgisMinimumVersion=3.0
+description=Export layer metadata to a geocat.ch compatible XML format.
+about=This QGIS plugin lets you export layer metadata to a geocat.ch compatible XML format (ISO 19139_CHE profile), which then can be uploaded to the geocat.ch metadata catalog.
+version=1.0.0
+author=GeoWerkstatt GmbH
+email=office@geowerkstatt.ch
+
+# Tags are comma separated with spaces allowed
+tags=swiss, suisse, schweiz, metadata, iso19139, geocat.ch, gm03
+
+tracker=https://github.com/GeoWerkstatt/qgis-geocat-export/issues
+homepage=https://github.com/GeoWerkstatt/qgis-geocat-export
+repository=https://github.com/GeoWerkstatt/qgis-geocat-export
+icon=icons/cat-logo.png
+
+experimental=False
