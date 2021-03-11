@@ -222,7 +222,7 @@ class GeocatExport():
             button.setText(QCoreApplication.translate('generals', 'Open folder'))
             button.pressed.connect(openFile)
             widget.layout().addWidget(button)
-            self.iface.messageBar().pushWidget(widget, level0)
+            self.iface.messageBar().pushWidget(widget, level)
         else:
             self.iface.messageBar().pushMessage(title, msg, level)
 
